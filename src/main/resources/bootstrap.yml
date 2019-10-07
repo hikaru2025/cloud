@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+        server-addr: 127.0.0.1:8848
+        namespace: 33a01603-7ba2-4920-bdf7-2265336a3d62
+  application:
+    name: hikaru-cloud
